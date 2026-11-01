@@ -1,0 +1,12 @@
+{
+  "name": "receipts",
+  "owner": { "name": "nuttakulsv" },
+  "description": "Hook and skill that make coding agents back up what they say they did",
+  "plugins": [
+    {
+      "name": "receipts",
+      "source": "./",
+      "description": "Fact-checks the agent's final summary against the session: tests it says pass but never ran, builds that failed, files it says it changed but didn't."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "description": "Check the agent's final message against what actually ran in the session",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/receipts.py\"", "timeout": 20 }
+        ]
+      }
+    ]
+  }
+}

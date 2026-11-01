@@ -1,0 +1,9 @@
+{
+  "name": "receipts",
+  "version": "0.1.0",
+  "description": "Fact-checks the agent's final summary against the session: tests it says pass but never ran, builds that failed, files it says it changed but didn't.",
+  "author": { "name": "nuttakulsv" },
+  "homepage": "https://github.com/nuttakulsv/receipts",
+  "license": "MIT",
+  "keywords": ["testing", "verification", "hooks", "honesty", "hallucination", "code-quality"]
+}
